@@ -1,18 +1,12 @@
-condition = True
-
-if condition:
-    print('condition is true')
-else:
-    print('condition is false')
+condition = 10
+for i in range(condition):
+    print(i)
     
-# special usage : elif
+# special syntax
+irc_members = ['ChiYu, YiTong', 'ChenYi', 'Lun', 'Lily']
+for member in irc_members:
+    print(member)
 
-condition = 0 # it could be 0, 1, 2
-
-if condition == 0:
-    print('first result')
-elif condition == 1:
-    print('second one')
-else:
-    print('last')
-    
+while condition > 0:
+    print(condition)
+    condition -= 1

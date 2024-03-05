@@ -3,11 +3,13 @@
 using namespace std;
 
 int main() {
-    bool condition = true;
+    int condition = 10;
+    for(int i = 0; i < condition; i++) {
+        cout << i << endl;
+    }
 
-    if (condition) {
-        cout << "condition is true" << endl;
-    } else {
-        cout << "condition is false" << endl;
+    while(condition < 0) {
+        cout << condition << endl;
+        condition--;
     }
 }
