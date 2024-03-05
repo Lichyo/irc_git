@@ -1,2 +1,7 @@
-user_input = input('python input')
-print(user_input)
+integer = 0
+float_number = 0.0
+condition = False
+array = []
+
+string = 'string'
+char = 'c'

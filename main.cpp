@@ -3,7 +3,12 @@
 using namespace std;
 
 int main() {
-    string input;
-    cin >> input;
-    cout << input << endl;
+    int integer = 0;
+    float floatNumber = 0.0;
+    bool condition = false;
+    int array [10];
+
+    // special declaration
+    string stringExample = "string";
+    char character = 'c';
 }
