@@ -1,15 +1,17 @@
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
 
-int main() {
-    int condition = 10;
-    for(int i = 0; i < condition; i++) {
-        cout << i << endl;
-    }
+void makeAPost(string img, string location, string datetime) {
+    cout << img << endl;
+    cout << location << endl;
+    cout << datetime << endl;
+}
 
-    while(condition < 0) {
-        cout << condition << endl;
-        condition--;
-    }
+int main() {
+    string img = "img";
+    string location = "Taipei";
+    string datetime = "2024/ 03/ 05";
+    makeAPost(img, location, datetime);
 }
