@@ -6,7 +6,3 @@ for i in range(condition):
 irc_members = ['ChiYu, YiTong', 'ChenYi', 'Lun', 'Lily']
 for member in irc_members:
     print(member)
-
-while condition > 0:
-    print(condition)
-    condition -= 1
